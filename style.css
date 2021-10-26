@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #343783;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.header-logo{
+    float: left;
+    padding: 15px 60px;
+    color: white;
+    font-family: 'Italianno', cursive;
+    font-size: 34px;
+}
+
+.header-list li,
+.header-right li{
+    list-style: none;
+    float: left;
+    padding: 20px;
+    transition: all 0.5s;  
+}
+.header-right{
+    float: right;
+    margin-right: 20px;
+}
+.header-list li:hover,
+.header-right li:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.header-list a,
+.header-right a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+}
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+  }
+.content{
+    width: 100%;
+}
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+}
+  
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url("top-wrapper.png");
+    background-size: cover;
+    color:black;
+    text-align: left;
+}
+  
+.top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+  
+.top-wrapper p {
+    margin-bottom: 3px;
+    font-size: 35px;
+}
+.top-wrapper h1,p{
+    opacity: 0.7;
+    font-family: 'Poppins', sans-serif;
+}
+.btn-wrapper {
+    text-align: center;
+    margin: 10px 0;
+}
+  
+.btn-wrapper p {
+    margin: 20px;
+}
+  
+.btn,
+.btn-message{
+    padding: 12px 100px;
+    color:white;
+    display: inline-block;
+    opacity: 0,8;
+    border-radius: 30px;
+    text-align: center;
+    margin: 20px;
+    background-color: red;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+  
+.btn:hover{
+    opacity: 1;
+    background-color: #f84747;
+}
+.profiles{
+    margin: 30px;
+    height: 500px;
+}
+.profiles h2{
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.profile{
+    margin-left: 43px;
+    float: left;
+    width: 200px;
+}
+.profile img{
+    width: 200px;
+
+}
+.deskripsi{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #222222;
+    font-weight: bold;
+}
+.clear{
+    clear: left;
+  }
+.heading h2,
+.heading h3{
+    font-family: 'Poppins', sans-serif;
+}
+.message-wrapper{
+    text-align: center;
+}
+.btn-message{
+    border-radius: 10px;
+    margin: 20px;
+    background-color: #3ab63a;
+    box-shadow: 0px 5px green;
+    position: relative;
+}
+.btn-message:active{
+    box-shadow: none;
+    top: 5px;
+}
+.btn-message:hover {
+    opacity: 1;
+    background-color: #77c777;
+}
+footer{
+    background-color: #343783;
+    height: 70px;
+    color: white;
+    margin-top: 50px;
+}
+.footer-left{
+    float: left;
+    height: 40px;
+    text-align: center;  
+    padding-top: 20px;
+    font-size: 10px;
+    margin-left: 10px;
+}
+.footer-logo{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Italianno', cursive;
+}
+.quote{
+    float: left;
+    font-size: 12px;
+    padding: 0px 100px;
+    padding-top: 30px;
+}

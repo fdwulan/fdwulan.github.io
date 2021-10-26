@@ -1,0 +1,131 @@
+@media all and (max-width: 1000px) {
+    .profile {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+    .top-wrapper h1 {
+        font-size: 32px;
+      }
+      .profiles{
+        height: 800px;
+      }
+      .profile{
+        margin-left: 43px;
+        float: left;
+        width: 25%;
+    }
+      .profiles h2 {
+        font-size: 20px;
+      }
+      footer{
+        background-color: #343783;
+        height: 70px;
+        color: white;
+        margin-top: 50px;
+    }
+    .footer-left{
+        float: left;
+        height: 40px;
+        text-align: center;  
+        padding-top: 20px;
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    .footer-logo{
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Italianno', cursive;
+    }
+    .quote{
+      position: absolute;
+        float: left;
+        font-size: 8px;
+        padding: 0px 220px;
+        padding-top: 30px;
+    }
+    }
+
+@media (max-width: 670px ) {
+  body{
+    width: 100%;
+  }
+  .container{
+    max-width: 670px;
+  }
+    .profile {
+        width: 100%;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .top-wrapper {
+        text-align: left;
+        padding-top: 130px;
+      }
+
+      .top-wrapper {
+        text-align: left;
+      }
+
+      top-wrapper h1 {
+        font-size: 24px;
+        line-height: 36px;
+      }
+
+      .top-wrapper p {
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      .header-right {
+        display: none;
+      }
+
+      .menu-icon {
+        display: block;
+      }
+      
+      .top-wrapper h1 {
+        font-size: 24px;
+        line-height: 36px;
+      }
+      
+      .top-wrapper p {
+        font-size: 14px;
+        line-height: 20px;
+      }
+      footer{
+        background-color: #343783;
+        height: 70px;
+        color: white;
+        margin-top: 50px;
+    }
+    .footer-left{
+        float: left;
+        height: 40px;
+        text-align: center;  
+        padding-top: 20px;
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    .footer-logo{
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Italianno', cursive;
+    }
+    .quote{
+      position: absolute;
+        float: left;
+        font-size: 8px;
+        padding: 0px 100px;
+        padding-top: 30px;
+    }
+
+}
